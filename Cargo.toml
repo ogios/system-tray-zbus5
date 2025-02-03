@@ -18,9 +18,11 @@ tracing = "0.1.41"
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["rt", "sync", "macros", "time"] }
 thiserror = "2.0.11"
+futures = "0.3.31"
 
 gtk = { version = "0.18.1", optional = true }
 dbusmenu-gtk3-sys = { version = "0.1.0", optional = true }
+cooked-waker = "5.0.0"
 
 [dev-dependencies]
 tokio = { version = "1.41.1", features = ["rt-multi-thread"] }
